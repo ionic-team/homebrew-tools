@@ -1,13 +1,13 @@
 class IonicCloud < Formula
-  desc "Command line tools to use all of Ionic's cloud products"
+  desc "Command-line tools to use all of Ionic's cloud products"
   homepage "https://ionic.io/docs/appflow/cli/overview"
-  version "v0.3.8"
+  version "0.3.8"
   license "Copyright (C) Drifty, Co - All Rights Reserved"
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://cdn.ionic.io/ionic-cloud-cli/releases/0.3.8/ionic-cloud_Darwin_arm64"
       sha256 "843f8ec3dd2cce049a2fb73606dda6388be3f2e032bc763ef1216cd5802e28af"
-    else 
+    else
       url "https://cdn.ionic.io/ionic-cloud-cli/releases/0.3.8/ionic-cloud_Darwin_x86_64"
       sha256 "217edf45eaf58ba3474dc908bbb657c059b5382b3012c7c342fd8a2424a69161"
     end
