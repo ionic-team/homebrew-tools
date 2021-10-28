@@ -1,4 +1,4 @@
-# Ionic-team Tools
+# Ionic Tools
 
 ## How do I install these formulae?
 
