@@ -19,7 +19,7 @@ class IonicCloud < Formula
       else
         raise "Unsupported architecture"
       end
-      elseif Hardware::CPU.intel?
+    elsif Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://cdn.ionic.io/ionic-cloud-cli/releases/0.3.8/ionic-cloud_Linux_x86_64"
         sha256 "bf9d5b14b557c44520bc3f95c25c0ecf1c3311178f7851d4d21e63ccae7b9d4d"

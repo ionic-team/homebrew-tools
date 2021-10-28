@@ -4,6 +4,11 @@
 
 `brew install ionic-team/tools/<formula>`
 
+for instance
+
+`brew install ionic-team/tools/ionic-cli`
+
+
 Or `brew tap ionic-team/tools` and then `brew install <formula>`.
 
 ## Documentation
